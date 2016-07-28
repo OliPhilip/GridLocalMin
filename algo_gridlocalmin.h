@@ -2,8 +2,8 @@
 /// Find a local minimum in a n x n grid - O(n)
 ///
 
-#ifndef cf_algo_grodlocalmin
-#define cf_algo_grodlocalmin
+#ifndef cf_algo_gridlocalmin
+#define cf_algo_gridlocalmin
 
 namespace algo {
     size_t FindMin(uint32_t *data, size_t nb, size_t start, size_t stop, size_t w) {
@@ -61,4 +61,4 @@ namespace algo {
         return algo::GridLocalMin(data, nb, pos, start, stop);
     }
 }
-#endif // cf_algo_grodlocalmin
+#endif // cf_algo_gridlocalmin
